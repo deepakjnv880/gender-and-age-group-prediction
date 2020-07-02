@@ -1,0 +1,17 @@
+https://stackoverflow.com/questions/57704412/how-to-suppress-future-warning-tensorflow
+pip3 uninstall numpy
+pip3 install numpy==1.16.4
+https://stackoverflow.com/questions/36946671/keras-model-summary-result-understanding-the-of-parameters
+https://www.tensorflow.org/tutorials/images/cnn
+https://stackoverflow.com/questions/49083984/valueerror-can-not-squeeze-dim1-expected-a-dimension-of-1-got-3-for-sparse
+https://stackoverflow.com/questions/35911252/disable-tensorflow-debugging-information
+
+https://medium.com/machine-learning-algorithms/what-is-stride-in-convolutional-neural-network-e3b4ae9baedb
+Then we define how far the filter moves from one position to the next position by “stride”.
+
+https://stats.stackexchange.com/questions/400508/why-do-people-use-zero-padding-in-convolutional-neural-networks
+https://stackoverflow.com/questions/57113226/how-to-prevent-google-colab-from-disconnecting
+https://towardsdatascience.com/precise-face-alignment-with-opencv-dlib-e6c8acead262
+http://alereimondo.no-ip.org/OpenCV/34
+https://github.com/opencv/opencv/tree/master/data/haarcascades
+https://stackoverflow.com/questions/48503646/where-should-i-install-cmake/51856073
