@@ -1,7 +1,7 @@
-# gender-and-age-group-prediction
+# Gender-and-Age-group-prediction
 Gender and Age group prediction of human face and also analysis of chained model(chaining age group with gender).
 
-# Results -
+# Model Results -
 
 ![Result 1](/results/r2.png)
 
@@ -30,7 +30,11 @@ TEST ACCURACY :  100.0%<br/>
 TEST ACCURACY(Exact 1-off) :  100.0 %<br/>
 ==========================<br/>
 
-# Dateset used :
+# Dateset used -
 [Adience data set](https://www.kaggle.com/ttungl/adience-benchmark-gender-and-age-classification)<br/>
+Then some preprocessing(basically face alignment) has been done on all data from dataset.
 There were 5 fold last one is used for testing purpose.<br/>
 From all other fold 90% is used for training and 10% is used for validating.<br/>
+
+# Model architecture -
+It is cnn based.
