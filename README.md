@@ -1,5 +1,5 @@
 # Gender-and-Age-group-prediction
-Gender and Age group prediction of human face and also analysis of chained model(chaining age group with gender).
+Gender and Age group prediction of human face and also analysis of chained model(chaining age group with gender) Deep learning.
 
 # Model Results -
 
