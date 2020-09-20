@@ -11,7 +11,7 @@ Gender and Age group prediction of human face and also analysis of chained model
 
 # Model Accuracy -
 ==========================<br/>
-Gender prediction : 81.566 %<br/>
+Gender prediction : 84.33515429496765 %<br/>
 Age prediction : 50.65835118293762 %<br/>
 Age prediction(Exact 1-off) : 81.70478170478171 %<br/>
 ==========================<br/>
@@ -34,8 +34,13 @@ TEST ACCURACY(Exact 1-off) :  100.0 %<br/>
 # Dateset used -
 [Adience data set](https://www.kaggle.com/ttungl/adience-benchmark-gender-and-age-classification) is used.<br/>
 Then some preprocessing(basically face alignment) has been done on all data from dataset.<br/>
-There were 5 fold last one is used for testing purpose.<br/>
-From all other fold 90% is used for training and 10% is used for validating.<br/>
+Dataset contain five fold in it. From which first four fold used for training purpose and from last fifth fold 40% dataset used validation and 60% dataset used for testing.</br>
+======================================================
+Dimension of training dataset =>  (10988, 227, 227, 3)
+Dimension of validation dataset =>  (1098, 227, 227, 3)
+Dimension of testing dataset =>  (1647, 227, 227, 3)
+======================================================
+
 Model is trained on Google colab with GPU.<br/>
 
 # Model architecture -
