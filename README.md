@@ -35,13 +35,14 @@ TEST ACCURACY(Exact 1-off) :  100.0 %<br/>
 [Adience data set](https://www.kaggle.com/ttungl/adience-benchmark-gender-and-age-classification) is used.<br/>
 Then some preprocessing(basically face alignment) has been done on all data from dataset.<br/>
 Dataset contain five fold in it. From which first four fold used for training purpose and from last fifth fold 40% dataset used validation and 60% dataset used for testing.</br>
-======================================================
-Dimension of training dataset =>  (10988, 227, 227, 3)
-Dimension of validation dataset =>  (1098, 227, 227, 3)
-Dimension of testing dataset =>  (1647, 227, 227, 3)
-======================================================
-
 Model is trained on Google colab with GPU.<br/>
+
+
+======================================================<br/>
+Dimension of training dataset =>  (10988, 227, 227, 3)<br/>
+Dimension of validation dataset =>  (1098, 227, 227, 3)<br/>
+Dimension of testing dataset =>  (1647, 227, 227, 3)<br/>
+======================================================<br/>
 
 # Model architecture -
 It is cnn based.
