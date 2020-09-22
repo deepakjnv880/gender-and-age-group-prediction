@@ -11,9 +11,9 @@ Gender and Age group prediction of human face and also analysis of chained model
 
 # Model Accuracy -
 ==========================<br/>
-Gender prediction : 84.33515429496765 %<br/>
-Age prediction : 50.65835118293762 %<br/>
-Age prediction(Exact 1-off) : 81.70478170478171 %<br/>
+Gender prediction : 81 %<br/>
+Age prediction : 51 %<br/>
+Age prediction(Exact 1-off) : 83 %<br/>
 ==========================<br/>
 
 # Chained Model Accuracy -
@@ -33,15 +33,15 @@ TEST ACCURACY(Exact 1-off) :  100.0 %<br/>
 
 # Dateset used -
 [Adience data set](https://www.kaggle.com/ttungl/adience-benchmark-gender-and-age-classification) is used.<br/>
-Then some preprocessing(basically face alignment) has been done on all data from dataset.<br/>
-Dataset contain five fold in it. From which first four fold used for training purpose and from last fifth fold 40% dataset used validation and 60% dataset used for testing.</br>
+Then some preprocessing(basically face alignment and croping) has been done on all data from dataset.<br/>
+Dataset contain five fold in it. From which first four fold used for training purpose and from last fifth fold 50% dataset used validation and 50% dataset used for testing.</br>
 Model is trained on Google colab with GPU.<br/>
 
 
 ======================================================<br/>
-Dimension of training dataset =>  (10988, 227, 227, 3)<br/>
-Dimension of validation dataset =>  (1098, 227, 227, 3)<br/>
-Dimension of testing dataset =>  (1647, 227, 227, 3)<br/>
+Dimension of training dataset =>  (12969, 227, 227, 3)<br/>
+Dimension of validation dataset =>  (1651, 227, 227, 3)<br/>
+Dimension of testing dataset =>  (1651, 227, 227, 3)<br/>
 ======================================================<br/>
 
 # Model architecture -
