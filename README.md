@@ -10,8 +10,7 @@ Age prediction(Exact 1-off) : 83 %<br/>
 ==========================<br/>
 
 # Dateset used -
-[Adience data set](https://www.kaggle.com/ttungl/adience-benchmark-gender-and-age-classification) is used.<br/>
-Then some preprocessing(basically face alignment and croping) has been done on all data from dataset.<br/>
+[Adience data set](https://www.kaggle.com/ttungl/adience-benchmark-gender-and-age-classification) has been used along with some preprocessing(basically face alignment and croping).<br/>
 Dataset contain five fold in it. From which first four fold used for training purpose and from last fifth fold 50% dataset used validation and 50% dataset used for testing.</br>
 Model is trained on Google colab with GPU. Weights corresponding to best validation accuracy has been taken.<br/>
 
@@ -23,7 +22,7 @@ Dimension of testing dataset =>  (1651, 227, 227, 3)<br/>
 ======================================================<br/>
 
 # Model architecture -
-It is cnn based having four conv layer and two fully connected layer. In last layer softmax is used as activation function and in other layer relu has been used. Last fully connected layer have 2 or 8 neurons. Droupout of 60% has also been used to avoid overrfitting.
+It is cnn based having four conv layer and two fully connected layer. In last layer softmax acts as activation function and in other layer relu. Last fully connected layer have 2 or 8 neurons. Droupout of 60% has been used to avoid overrfitting.
 
 # Model Results -
 
