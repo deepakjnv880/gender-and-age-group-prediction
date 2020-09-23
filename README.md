@@ -26,16 +26,16 @@ Age prediction(Exact 1-off) : 83 %<br/>
 # Chained Model Accuracy -
 ==========================<br/>
 FOR MALE:<br/>
-TEST ACCURACY :  44.120100140571594 %<br/>
-TEST ACCURACY(Exact 1-off) :  84.07005838198499 %<br/>
+TEST ACCURACY :  42 %<br/>
+TEST ACCURACY(Exact 1-off) :  80 %<br/>
 ==========================<br/>
 FOR FEMALE:<br/>
-TEST ACCURACY :  38.74514997005463 %<br/>
-TEST ACCURACY(Exact 1-off) :  77.36093143596378 %<br/>
+TEST ACCURACY :  38 %<br/>
+TEST ACCURACY(Exact 1-off) :  77 %<br/>
 ==========================<br/>
 FOR CHILD:<br/>
-TEST ACCURACY :  100.0 %<br/>
-TEST ACCURACY(Exact 1-off) :  100.0 %<br/>
+TEST ACCURACY :  98 %<br/>
+TEST ACCURACY(Exact 1-off) :  98 %<br/>
 ==========================<br/>
 
 # Dateset used -
@@ -53,3 +53,7 @@ Dimension of testing dataset =>  (1651, 227, 227, 3)<br/>
 
 # Model architecture -
 It is cnn based.
+
+# Conclusion -
+After chaining age prediction over gender, one can see male age prediction is better than female age accuracy. Author of one research paper was also stating the same that women are more good in hiding age :).<br/>
+Also dataset age group level does not contain all age like age group 20-25. One can also estimate actual age value by taking weighted sum of mean of age range and its probability.
