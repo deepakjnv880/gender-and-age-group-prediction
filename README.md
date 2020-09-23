@@ -1,41 +1,12 @@
 # Gender-and-Age-group-prediction
 Gender and Age group prediction of human face and also analysis of chained model(chaining age group with gender) using Deep learning.
 
-# Model Results -
-
-
-![Result 1](/results/r7.png)
-
-![Result 2](/results/r6.png)
-
-![Result 3](/results/r5.png)
-
-![Result 4](/results/r1.png)
-
-![Result 5](/results/r4.png)
-
-![Result 6](/results/r3.png)
 
 # Model Accuracy -
 ==========================<br/>
 Gender prediction : 81 %<br/>
 Age prediction : 51 %<br/>
 Age prediction(Exact 1-off) : 83 %<br/>
-==========================<br/>
-
-# Chained Model Accuracy -
-==========================<br/>
-FOR MALE:<br/>
-TEST ACCURACY :  42 %<br/>
-TEST ACCURACY(Exact 1-off) :  80 %<br/>
-==========================<br/>
-FOR FEMALE:<br/>
-TEST ACCURACY :  38 %<br/>
-TEST ACCURACY(Exact 1-off) :  77 %<br/>
-==========================<br/>
-FOR CHILD:<br/>
-TEST ACCURACY :  98 %<br/>
-TEST ACCURACY(Exact 1-off) :  98 %<br/>
 ==========================<br/>
 
 # Dateset used -
@@ -52,7 +23,38 @@ Dimension of testing dataset =>  (1651, 227, 227, 3)<br/>
 ======================================================<br/>
 
 # Model architecture -
-It is cnn based.
+It is cnn based having four conv layer and two fully connected layer. In last layer softmax is used as activation function and in other layer relu has been used. Last fully connected layer have 2 or 8 neurons. Droupout of 60% has also been used to avoid overrfitting.
+
+# Model Results -
+
+
+![Result 1](/results/r7.png)
+
+![Result 2](/results/r6.png)
+
+![Result 3](/results/r5.png)
+
+![Result 4](/results/r1.png)
+
+![Result 5](/results/r4.png)
+
+![Result 6](/results/r3.png)
+
+
+# Chained Model Accuracy -
+==========================<br/>
+FOR MALE:<br/>
+TEST ACCURACY :  42 %<br/>
+TEST ACCURACY(Exact 1-off) :  80 %<br/>
+==========================<br/>
+FOR FEMALE:<br/>
+TEST ACCURACY :  38 %<br/>
+TEST ACCURACY(Exact 1-off) :  77 %<br/>
+==========================<br/>
+FOR CHILD:<br/>
+TEST ACCURACY :  98 %<br/>
+TEST ACCURACY(Exact 1-off) :  98 %<br/>
+==========================<br/>
 
 # Conclusion -
 After chaining age prediction over gender, one can see male age prediction is better than female age accuracy. Author of one research paper was also stating the same that women are more good in hiding age :).<br/>
