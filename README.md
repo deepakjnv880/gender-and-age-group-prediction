@@ -1,7 +1,6 @@
 # Gender-and-Age-group-prediction
 Gender and Age group prediction of human face and also analysis of chained model(chaining age group with gender) using Deep learning.
 
-
 # Model Accuracy -
 ==========================<br/>
 Gender prediction : 81 %<br/>
@@ -11,6 +10,7 @@ Age prediction(Exact 1-off) : 83 %<br/>
 
 # Dateset used -
 [Adience data set](https://www.kaggle.com/ttungl/adience-benchmark-gender-and-age-classification) has been used along with some preprocessing(basically face alignment and croping).<br/>
+Dataset contain three type of gender namely male,female and child and eight age group 0-2, 4-6, 8-13, 15-20, 25-32, 38-43, 48-53 and 60+ . I have also used same for training purpose.<br/>
 Dataset contain five fold in it. From which first four fold used for training purpose and from last fifth fold 50% dataset used validation and 50% dataset used for testing.</br>
 Model is trained on Google colab with GPU. Weights corresponding to best validation accuracy has been taken.<br/>
 
