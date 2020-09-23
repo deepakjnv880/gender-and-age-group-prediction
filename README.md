@@ -3,11 +3,20 @@ Gender and Age group prediction of human face and also analysis of chained model
 
 # Model Results -
 
-![Result 1](/results/r2.png)
 
-![Result 2](/results/r4.png)
+![Result 1](/results/r7.jpg)
 
-![Result 3](/results/r3.png)
+![Result 2](/results/r6.jpg)
+
+![Result 3](/results/r5.jpg)
+
+![Result 4](/results/r1.jpg)
+
+![Result 5](/results/r2.jpg)
+
+![Result 6](/results/r4.jpg)
+
+![Result 7](/results/r3.jpg)
 
 # Model Accuracy -
 ==========================<br/>
